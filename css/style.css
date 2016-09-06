@@ -5,6 +5,7 @@ html, body {
 
 body {
     background-color: #292929;
+    min-width: 600px;
 }
 
 table {
