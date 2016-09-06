@@ -17,6 +17,12 @@ table td.location-cell {
     width: 15px;
 }
 
+
+table td.date-cell {
+    text-align: right;
+    padding-right: 7px;
+}
+
 small {
     color: #656464;
     font-size: 75%;
@@ -57,7 +63,7 @@ small {
     padding: 10px 0 0 0;
 }
 
-.block-body h3 {
+.block-content h3 {
     color: #656464;
     font-size: 10px;
     margin: 10px 0 3px 0;
@@ -66,6 +72,12 @@ small {
 
 .block-body .block-content {
     margin: 8px 0 8px 0;
+}
+
+.block-footer {
+    border-top: solid 1px;
+    margin-top: 17px;
+    padding: 7px 0 10px 0;
 }
 
 a.icon-link {
@@ -91,6 +103,11 @@ a.icon-link.linkedin-link {
 
 a.icon-link i {
     font-size: 37px;
+}
+
+div.aligned-block {
+    display: inline-block;
+    width: 49%;
 }
 
 div#main-block {
