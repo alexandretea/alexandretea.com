@@ -1,0 +1,102 @@
+html, body {
+    height: 100%;
+    body: 100%;
+}
+
+body {
+    background-color: #292929;
+}
+
+table {
+    width: 100%;
+}
+
+table td.location-cell {
+    text-transform: uppercase;
+    width: 15px;
+}
+
+small {
+    color: #656464;
+    font-size: 75%;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.vertically-centered {
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+  -webkit-transform: perspective(1px) translateY(-50%);
+  -ms-transform: perspective(1px) translateY(-50%);
+}
+
+.block-title {
+    border-bottom: solid 1px;
+}
+
+.block-title h1 {
+    color: #c1c1c1;
+    font-size: 30px;
+    margin: 0;
+}
+
+.block-title h2 {
+    color: #3177b3;
+    font-size: 12px;
+    margin: 5px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.block-body {
+    color: #c1c1c1;
+    font-size: 12px;
+    padding: 10px 0 0 0;
+}
+
+.block-body h3 {
+    color: #656464;
+    font-size: 10px;
+    margin: 0 0 3px 0;
+    text-transform: uppercase;
+}
+
+.block-body .block-content {
+    margin: 8px 0 8px 0;
+}
+
+a.icon-link {
+    margin: 0 2px 0 2px;
+}
+
+a.icon-link:hover {
+    padding-bottom: 5px;
+    border-bottom: solid 1px #3177b3;
+}
+
+a.icon-link.email-link {
+    color: #c1c1c1;
+}
+
+a.icon-link.github-link {
+    color: #c1c1c1;
+}
+
+a.icon-link.linkedin-link {
+    color: #3177b3;
+}
+
+a.icon-link i {
+    font-size: 37px;
+}
+
+div#main-block {
+    background-color: #232323;
+    border: 2px;
+    border-radius: 2px;
+    max-width: 500px;
+    margin: auto;
+    padding: 15px;
+}
